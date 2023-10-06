@@ -61,6 +61,7 @@ git restore --source HEAD~1 filename   //restore file to its previous version
 git checkout commit-hashvalue           // Head points to the specified commit in version history. Follow by git commit. 
 git checkout commit-hashvalue filename  // Restore file to specified previous commit. Follow by git commit.
 
+git branch -a  // List all branches
 git branch -D branchname    // Delete the branchname
 git branch "branchname"     // create a branch 
 git checkout "branchname"   // switch to branch 
